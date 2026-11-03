@@ -29,7 +29,7 @@ Requires JDK 17+ and Maven 3.8+.
 mvn test                      # run all unit tests
 mvn -q compile exec:java      # run the console demo
 ```
-## Sample run output of an interactive Main.java. UI to replace this code in the future
+## Sample run output of the interactive Main.java. A UI will replace this console interface in the future.
 SampleMainRunOutPut.txt
 
 ## Design
