@@ -9,7 +9,8 @@ A simulated car rental reservation system written in Java 17 using object-orient
 | 1 | Reserve a car of a given type at a desired date and time for a given number of days | `CarRentalServiceTest.Reserving` |
 | 2 | Three car types: sedan, SUV, van | `CarRentalServiceTest.CarTypes` |
 | 3 | The number of cars of each type is limited | `CarRentalServiceTest.LimitedCapacity`, `FleetTest` |
-| 4 | Unit tests prove the system works | 42 tests across `src/test` |
+| 4 | The number of cars of each type is limited | `CarRentalEndToEndTest.testMainFlowEndToEnd` |
+| 5 | Unit tests prove the system works | 42 tests across `src/test` |
 
 Also covered: cancellation, input validation, and concurrent requests that must not overbook.
 
