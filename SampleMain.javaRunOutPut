@@ -1,0 +1,135 @@
+Main.java output run:
+
+=== Administrator Configure Your Fleet ===
+Enter number of Sedans (0 or more): 6
+Enter number of SUVs (0 or more): 3
+Enter number of Vans (0 or more): 4
+Fleet initialized successfully by the Administrator !
+
+=== Car Rental Menu ===
+1. Make a Reservation
+2. Cancel a Reservation
+3. Check Available Inventory
+4. Exit
+Choose an option (1-4): 1
+Select Car Type:
+1. SEDAN
+2. SUV
+3. VAN
+Enter choice (1-3): 1
+Enter start date and time [Format: yyyy-MM-dd HH:mm] (Press Enter to use default: 2026-11-03 11:09): 
+Enter number of days to rent (must be > 0): 4
+Success! Booked: Reservation{id=R-1, car=SEDAN-1, start=2026-11-03T11:09, end=2026-11-07T11:09, days=4}
+Your Reservation ID: R-1
+
+=== Car Rental Menu ===
+1. Make a Reservation
+2. Cancel a Reservation
+3. Check Available Inventory
+4. Exit
+Choose an option (1-4): 1
+Select Car Type:
+1. SEDAN
+2. SUV
+3. VAN
+Enter choice (1-3): 2
+Enter start date and time [Format: yyyy-MM-dd HH:mm] (Press Enter to use default: 2026-11-03 11:10): 2026-11-03 12:10
+Enter number of days to rent (must be > 0): 3
+Success! Booked: Reservation{id=R-2, car=SUV-1, start=2026-11-03T12:10, end=2026-11-06T12:10, days=3}
+Your Reservation ID: R-2
+
+=== Car Rental Menu ===
+1. Make a Reservation
+2. Cancel a Reservation
+3. Check Available Inventory
+4. Exit
+Choose an option (1-4): 3
+Enter start date and time [Format: yyyy-MM-dd HH:mm] (Press Enter to use default: 2026-11-03 11:11): 
+Enter duration in days to check: 7
+
+--- Available Inventory for period starting 2026-11-03T11:11 (7 days) ---
+----------------------------------------
+SEDAN: 5 available
+----------------------------------------
+Reserved cars and active reservations for SEDAN from 2026-11-03T11:11 to 2026-11-10T11:11:
+ - Reservation ID: R-1, Car ID: SEDAN-1, Model: SEDAN, Start Time: 2026-11-03T11:09, End Time: 2026-11-07T11:09
+---------------------------------------
+SUV: 2 available
+----------------------------------------
+Reserved cars and active reservations for SUV from 2026-11-03T11:11 to 2026-11-10T11:11:
+ - Reservation ID: R-2, Car ID: SUV-1, Model: SUV, Start Time: 2026-11-03T12:10, End Time: 2026-11-06T12:10
+---------------------------------------
+VAN: 4 available
+----------------------------------------
+Reserved cars and active reservations for VAN from 2026-11-03T11:11 to 2026-11-10T11:11:
+No active reservations for VAN in this period.
+---------------------------------------
+
+=== Car Rental Menu ===
+1. Make a Reservation
+2. Cancel a Reservation
+3. Check Available Inventory
+4. Exit
+Choose an option (1-4): 2
+Enter Reservation ID to cancel: R-5
+Cancellation failed: Reservation ID not found. (Reservation not found: R-5)
+
+=== Car Rental Menu ===
+1. Make a Reservation
+2. Cancel a Reservation
+3. Check Available Inventory
+4. Exit
+Choose an option (1-4): 2
+Enter Reservation ID to cancel: R-2
+Successfully cancelled reservation ID: R-2
+
+=== Car Rental Menu ===
+1. Make a Reservation
+2. Cancel a Reservation
+3. Check Available Inventory
+4. Exit
+Choose an option (1-4): 1
+Select Car Type:
+1. SEDAN
+2. SUV
+3. VAN
+Enter choice (1-3): 3
+Enter start date and time [Format: yyyy-MM-dd HH:mm] (Press Enter to use default: 2026-11-03 11:12): 
+Enter number of days to rent (must be > 0): 6
+Success! Booked: Reservation{id=R-3, car=VAN-1, start=2026-11-03T11:12, end=2026-11-09T11:12, days=6}
+Your Reservation ID: R-3
+
+=== Car Rental Menu ===
+1. Make a Reservation
+2. Cancel a Reservation
+3. Check Available Inventory
+4. Exit
+Choose an option (1-4): 3
+Enter start date and time [Format: yyyy-MM-dd HH:mm] (Press Enter to use default: 2026-11-03 11:12): 
+Enter duration in days to check: 10
+
+--- Available Inventory for period starting 2026-11-03T11:12 (10 days) ---
+----------------------------------------
+SEDAN: 5 available
+----------------------------------------
+Reserved cars and active reservations for SEDAN from 2026-11-03T11:12 to 2026-11-13T11:12:
+ - Reservation ID: R-1, Car ID: SEDAN-1, Model: SEDAN, Start Time: 2026-11-03T11:09, End Time: 2026-11-07T11:09
+---------------------------------------
+SUV: 3 available
+----------------------------------------
+Reserved cars and active reservations for SUV from 2026-11-03T11:12 to 2026-11-13T11:12:
+No active reservations for SUV in this period.
+---------------------------------------
+VAN: 3 available
+----------------------------------------
+Reserved cars and active reservations for VAN from 2026-11-03T11:12 to 2026-11-13T11:12:
+ - Reservation ID: R-3, Car ID: VAN-1, Model: VAN, Start Time: 2026-11-03T11:12, End Time: 2026-11-09T11:12
+---------------------------------------
+
+=== Car Rental Menu ===
+1. Make a Reservation
+2. Cancel a Reservation
+3. Check Available Inventory
+4. Exit
+Choose an option (1-4): 4
+Exiting program. Goodbye!
