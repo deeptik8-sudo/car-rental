@@ -1,3 +1,4 @@
-/Users/kulkarnimacbook/Downloads/StateStreet/car-rental/src/test/java/com/example/carrental/fleet/FleetTest.java
-/Users/kulkarnimacbook/Downloads/StateStreet/car-rental/src/test/java/com/example/carrental/model/ReservationTest.java
-/Users/kulkarnimacbook/Downloads/StateStreet/car-rental/src/test/java/com/example/carrental/service/CarRentalServiceTest.java
+/Users/kulkarnimacbook/Documents/GitHub/car-rental/src/test/java/com/example/carrental/endToend/CarRentalEndToEndTest.java
+/Users/kulkarnimacbook/Documents/GitHub/car-rental/src/test/java/com/example/carrental/fleet/FleetTest.java
+/Users/kulkarnimacbook/Documents/GitHub/car-rental/src/test/java/com/example/carrental/model/ReservationTest.java
+/Users/kulkarnimacbook/Documents/GitHub/car-rental/src/test/java/com/example/carrental/service/CarRentalServiceTest.java

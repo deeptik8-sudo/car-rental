@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.carrental.service.CarRentalServiceTest$CarTypes
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s -- in com.example.carrental.service.CarRentalServiceTest$CarTypes
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s -- in com.example.carrental.service.CarRentalServiceTest$CarTypes
