@@ -14,8 +14,8 @@ A simulated car rental reservation system written in Java 17 using object-orient
 
 CarRentalEndToEndTest.testMainFlowEndToEnd covers cancellation, input validation, and concurrent requests that must not overbook. This test includes:
 ```bash
-1.First Reservation (SUV starting now for 3 days)
-2.Second Reservation (SUV starting 1 day from now for 2 days)
+1. First Reservation (SUV starting now for 3 days)
+2. Second Reservation (SUV starting 1 day from now for 2 days)
 3. Back-to-Back Reservation (Starts exactly when the first reservation ends)
 4. Cancel First Reservation
 5. Rebooked Reservation (Overlaps with original timeframe of the cancelled first reservation)
