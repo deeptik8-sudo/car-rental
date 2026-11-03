@@ -124,7 +124,7 @@ So a car returned at 10:00 can be picked up again at 10:00.
 - Number of days must be at least 1.
 - Pick-up time must not be in the past.
 - The fleet size is fixed when the system is created.
-- Sample Main.java books the car 10 minutes after the actual booking time. 10 minute delay added for the finishing the rental process.
+- Sample Main.java books the car 10 minutes after the actual booking time. 10 minute delay added to finish the rental process.
 - Out of scope: pricing, customers, payments, persistence, multiple branches, and a UI or API.
 
 ### Complexity
